@@ -1,5 +1,10 @@
-bookmarks:
-  - name: Google
-    slug: google
-    url: https://www.google.co.uk/
-    description: "Search the world's information, including webpages, images, videos and more."
+# Google
+- title: Google
+  url: https://www.google.co.uk/
+  description: "Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for."
+  icon: google.ico
+# DuckDuckGo
+- title: DuckDuckGo — Privacy, simplified.
+  url: https://duckduckgo.com/
+  description: "The Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs."
+  icon: duckduckgo.ico
