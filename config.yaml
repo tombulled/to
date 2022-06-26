@@ -78,4 +78,9 @@
   url: "https://mega.io/"
   description: "MEGA provides free cloud storage with convenient and powerful always-on privacy."
   icon: "mega.ico"
+# Netflix
+- title: "Netflix United Kingdom – Watch TV Programmes Online, Watch Films Online"
+  url: "https://www.netflix.com/gb/"
+  description: "Netflix is a streaming service that offers a wide variety of award-winning TV programmes, films, anime, documentaries and more - on thousands of internet-connected devices. You can watch as much as you want, whenever you want, without a single advert - all for one low monthly price."
+  icon: "netflix.ico"
   
