@@ -98,3 +98,8 @@
   url: "https://www.spotify.com/"
   description: "Spotify is all the music you'll ever need."
   icon: "spotify.ico"
+# Standard Notes
+- title: "Standard Notes | End-To-End Encrypted Notes App"
+  url: "https://standardnotes.com/"
+  description: "Standard Notes is an end-to-end encrypted note-taking app for digitalists and professionals. Capture your notes, files, and life's work all in one secure place."
+  icon: "standard-notes.ico"
