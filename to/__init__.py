@@ -1,9 +1,12 @@
 from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
 from typing import List, TextIO
 import yaml
 import thefuzz.fuzz
 
 app: FastAPI = FastAPI()
+
+app.mount("/icons", StaticFiles(directory="icons"), name="icons")
 
 
 def load_db() -> List[dict]:
