@@ -187,7 +187,7 @@
 - title: "HTTPBin"
   url: "http://httpbin.org/"
   description: "A simple HTTP Request & Response Service."
-  icon: "httpin.ico"
+  icon: "httpbin.ico"
 # SYME
 - title: "Supplyme Capital - Supplyme Capital"
   url: "https://www.supplymecapital.com/"
