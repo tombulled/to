@@ -168,11 +168,16 @@
   url: "https://element.io/"
   description: "Element is a Matrix-based end-to-end encrypted messenger and secure collaboration app. It's decentralised for digital sovereign self-hosting, or through a hosting service such as Element Matrix Services. Element operates on the open Matrix network to provide interoperability and easy connections."
   icon: "element.png"
-# Firefox Add-ons
+# Mozilla | Firefox | Add-ons
 - title: "Add-ons for Firefox (en-GB)"
   url: "https://addons.mozilla.org/en-GB/firefox/"
   description: "Add-ons for Firefox (en-GB)"
   icon: "mozilla-addons.ico"
+# Mozilla | Firefox
+- title: "Download Firefox — Fast, Private & Free — from Mozilla (UK)"
+  url: "https://www.mozilla.org/en-GB/firefox/new/"
+  description: "Get Firefox, a free web browser backed by Mozilla, a non-profit dedicated to internet health and privacy. Available now on Windows, Mac, Linux, Android and iOS."
+  icon: "firefox.png"
 # Kubernetes (Docs)
 - title: "Kubernetes Documentation | Kubernetes"
   url: "https://kubernetes.io/docs/home/"
@@ -218,3 +223,73 @@
   url: "https://code.visualstudio.com/"
   description: "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications. Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows."
   icon: "visualstudio-code.ico"
+# Virtualbox
+- title: "Oracle VM VirtualBox"
+  url: "https://www.virtualbox.org/"
+  description: "VirtualBox is being actively developed with frequent releases and has an ever growing list of features, supported guest operating systems and platforms it runs on. VirtualBox is a community effort backed by a dedicated company: everyone is encouraged to contribute while Oracle ensures the product always meets professional quality criteria."
+  icon: "virtualbox.ico"
+# Cisco Networking Academy
+- title: "Cisco Networking Academy Builds IT Skills & Education For Future Careers"
+  url: "https://www.netacad.com/"
+  description: "Join the growing IT workforce of tomorrow. Learn about the Cisco Networking Academy curriculum, learning platform, support & training."
+  icon: "netacad.ico"
+# Dell
+- title: "Computers, Monitors & Technology Solutions | Dell UK"
+  url: "https://www.dell.com/en-uk"
+  description: "Dell provides technology solutions, services & support. Buy Laptops, Touch Screen PCs, Desktops, Servers, Storage, Monitors, Gaming & Accessories."
+  icon: "dell.ico"
+# Nationwide
+- title: "Nationwide Building Society | Building society, nationwide"
+  url: "https://www.nationwide.co.uk/"
+  description: "The world's largest building society, run for the benefit of its members. Helping you with current account, mortgage, savings and other personal finance needs."
+  icon: "nationwide.png"
+# NatWest
+- title: "NatWest Online - Bank Accounts, Mortgages, Loans and Savings"
+  url: "https://www.natwest.com/"
+  description: "Welcome to NatWest. Our extensive personal banking products include bank accounts, mortgages, credit cards, loans and more. Visit today to see how we can serve you."
+  icon: "natwest.ico"
+# Apple
+- title: "Apple (United Kingdom)"
+  url: "https://www.apple.com/uk/"
+  description: "Shop everything iPhone, iPad, Apple Watch, Mac and Apple TV, plus explore accessories and entertainment and get expert device support."
+  icon: "apple.ico"
+# Trading 212
+- title: "Commission-free investing for everyone | Trading 212"
+  url: "https://www.trading212.com/"
+  description: "Invest in Stocks and ETFs with zero commission. Trade Gold, Oil, Currencies and more. Trusted and secure, FCA regulated."
+  icon: "trading212.png"
+# Signal
+- title: "Signal >> Home"
+  url: "https://www.signal.org/"
+  description: "Signal uses your phone's data connection so you can avoid SMS and MMS fees. Speak Freely Make crystal-clear voice and video calls to people who live across town, or across the ocean, with no long-distance charges. Make Privacy Stick Add a new layer of expression to your conversations with encrypted stickers."
+  icon: "signal.png"
+# SMARTY
+- title: "Simple, honest mobile | SMARTY"
+  url: "https://smarty.co.uk/"
+  description: "With SMARTY you can continue to use your allowance in European destinations to make calls and send texts to the UK and you can use up to 12GB of data to get online. Check pricing Now that's fist bump worthy Great deals deserve a fist bump. And with SMARTY there's loads to bump about - just watch our new TV ad if you don't believe us."
+  icon: "smarty.ico"
+# Screwfix
+- title: "Screwfix.com | The UK's number 1 trade catalogue | Screwfix Website"
+  url: "https://www.screwfix.com/"
+  description: "Screwfix: Thousands of products at trade prices | FREE delivery available 7 days a week | FREE click & collect in as little as a minute | Hundreds of stores"
+  icon: "screwfix.ico"
+# IKEA
+- title: "Fresh home furnishing ideas and affordable furniture - IKEA"
+  url: "https://www.ikea.com/gb/en/"
+  description: "Welcome to IKEA. Discover affordable furniture and home furnishing inspiration for all sizes of wallets and homes. Shop online or find a store near you."
+  icon: "ikea.ico"
+# Office 365
+- title: "Office 365 login"
+  url: "https://www.office.com/"
+  description: "Collaborate for free with online versions of Microsoft Word, PowerPoint, Excel, and OneNote. Save documents, spreadsheets, and presentations online, in OneDrive."
+  icon: "office.ico"
+# OpenStreetMap
+- title: "OpenStreetMap"
+  url: "https://www.openstreetmap.org/"
+  description: "OpenStreetMap is the free wiki world map. OpenStreetMap is a map of the world, created by people like you and free to use under an open license."
+  icon: "openstreetmap.png"
+# B&Q
+- title: "B&Q | DIY Products at Everyday Low Prices | DIY at B&Q"
+  url: "https://www.diy.com/"
+  description: "Shop for everything you need to complete your home and garden project. Order online for 1hr Click+Collect, or free home delivery on orders over £50."
+  icon: "diy.ico"
