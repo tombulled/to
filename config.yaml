@@ -53,3 +53,8 @@
   url: "https://gitmoji.dev/"
   description: "Gitmoji is an emoji guide for your commit messages. Aims to be a standarization cheatshee /t for using emojis on GitHub's commit messages."
   icon: "gitmoji.png"
+# CyberChef
+- title: "CyberChef"
+  url: "https://cyberchef.org/"
+  description: "CyberChef encourages both technical and non-technical people to explore data formats, encryption and compression."
+  icon: "cyberchef.ico"
