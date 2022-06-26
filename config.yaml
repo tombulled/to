@@ -1,15 +1,25 @@
 # Google
-- title: Google
-  url: https://www.google.co.uk/
+- title: "Google"
+  url: "https://www.google.co.uk/"
   description: "Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for."
-  icon: google.ico
+  icon: "google.ico"
 # DuckDuckGo
-- title: DuckDuckGo — Privacy, simplified.
-  url: https://duckduckgo.com/
+- title: "DuckDuckGo — Privacy, simplified."
+  url: "https://duckduckgo.com/"
   description: "The Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs."
-  icon: duckduckgo.ico
+  icon: "duckduckgo.ico"
 # Wikipedia
-- title: Wikipedia
-  url: https://www.wikipedia.org/
-  description: Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.
-  icon: wikipedia.ico
+- title: "Wikipedia"
+  url: "https://www.wikipedia.org/"
+  description: "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation."
+  icon: "wikipedia.ico"
+# GitHub
+- title: "GitHub: Where the world builds software · GitHub"
+  url: "https://github.com/"
+  description: "GitHub is where over 83 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and features, power your CI/CD and DevOps workflows, and secure code before you commit it."
+  icon: "github.ico"
+# FastAPI (Docs)
+- title: "FastAPI"
+  url: "https://fastapi.tiangolo.com/"
+  description: "FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints."
+  icon: "fastapi.png"
