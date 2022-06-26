@@ -1,8 +1,13 @@
+from typing import Dict, List, TextIO
+
+import thefuzz.fuzz
+import yaml
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
-from typing import List, TextIO
-import yaml
-import thefuzz.fuzz
+
+from .models import Bookmark
+
+THRESHOLD: int = 15
 
 app: FastAPI = FastAPI()
 
@@ -15,6 +20,10 @@ def load_db() -> List[dict]:
         return yaml.load(file, Loader=yaml.SafeLoader)
 
 
+def get_bookmarks() -> List[Bookmark]:
+    return [Bookmark(**bookmark) for bookmark in load_db()]
+
+
 @app.get("/")
 def get_root() -> List[dict]:
     return load_db()
@@ -22,8 +31,10 @@ def get_root() -> List[dict]:
 
 @app.get("/search")
 def get_search(q: str) -> List[dict]:
-    return sorted(
-        load_db(),
-        key=lambda bookmark: thefuzz.fuzz.ratio(bookmark["title"], q),
-        reverse=True,
-    )
+    ratios: Dict[Bookmark, int] = {
+        bookmark: ratio
+        for bookmark in get_bookmarks()
+        if (ratio := thefuzz.fuzz.ratio(bookmark.title, q)) > THRESHOLD
+    }
+
+    return sorted(ratios.keys(), key=ratios.get, reverse=True)
