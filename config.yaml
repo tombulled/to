@@ -33,3 +33,8 @@
   url: "https://www.bbc.co.uk/news"
   description: "Visit BBC News for up-to-the-minute news, breaking news, video, audio and feature stories. BBC News provides trusted World and UK news as well as local and regional perspectives."
   icon: "bbc.ico"
+# Reddit
+- title: "Reddit - Dive into anything"
+  url: "https://www.reddit.com/"
+  description: "Reddit is a network of communities where people can dive into their interests, hobbies and passions. There's a community for whatever you're interested in on Reddit."
+  icon: "reddit.ico"
