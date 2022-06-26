@@ -88,4 +88,13 @@
   url: "https://pypi.org/"
   description: "The Python Package Index (PyPI) is a repository of software for the Python programming language. PyPI helps you find and install software developed and shared by the Python community."
   icon: "pypi.ico"
-  
+# Docker Hub
+- title: "Docker Hub Container Image Library | App Containerization"
+  url: "https://hub.docker.com/"
+  description: "Docker Hub is the world's largest library and community for container images Browse over 100,000 container images from software vendors, open-source projects, and the community."
+  icon: "docker-hub.ico"
+# Spotify
+- title: "Listening is everything - Spotify"
+  url: "https://www.spotify.com/"
+  description: "Spotify is all the music you'll ever need."
+  icon: "spotify.ico"
