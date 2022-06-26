@@ -48,3 +48,8 @@
   url: "https://www.amazon.co.uk/"
   description: "Sign up to Amazon Prime for unlimited free delivery. Low prices at Amazon on digital cameras, MP3, sports, books, music, DVDs, video games, home & garden and much more."
   icon: "amazon.ico"
+# Gitmoji
+- title: "gitmoji | An emoji guide for your commit messages"
+  url: "https://gitmoji.dev/"
+  description: "Gitmoji is an emoji guide for your commit messages. Aims to be a standarization cheatshee /t for using emojis on GitHub's commit messages."
+  icon: "gitmoji.png"
