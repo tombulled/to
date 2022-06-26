@@ -38,3 +38,8 @@
   url: "https://www.reddit.com/"
   description: "Reddit is a network of communities where people can dive into their interests, hobbies and passions. There's a community for whatever you're interested in on Reddit."
   icon: "reddit.ico"
+# Hacker News
+- title: "Hacker News"
+  url: "https://news.ycombinator.com/"
+  description: "Hacker News is a social news website focusing on computer science and entrepreneurship. It is run by the investment fund and startup incubator Y Combinator."
+  icon: "ycombinator.ico"
