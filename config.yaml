@@ -3,6 +3,16 @@
   url: "https://www.google.co.uk/"
   description: "Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for."
   icon: "google.ico"
+# Google Maps
+- title: "Google Maps"
+  url: "https://maps.google.co.uk/"
+  description: "Find local businesses, view maps and get driving directions in Google Maps."
+  icon: "google-maps.ico"
+# Google Images
+- title: "Google Images"
+  url: "https://images.google.co.uk/"
+  description: "Google Images. The most comprehensive image search on the web."
+  icon: "google.ico"
 # DuckDuckGo
 - title: "DuckDuckGo — Privacy, simplified."
   url: "https://duckduckgo.com/"
@@ -103,3 +113,108 @@
   url: "https://standardnotes.com/"
   description: "Standard Notes is an end-to-end encrypted note-taking app for digitalists and professionals. Capture your notes, files, and life's work all in one secure place."
   icon: "standard-notes.ico"
+# Starling Bank
+- title: "Starling Bank: Award-winning bank accounts"
+  url: "https://www.starlingbank.com/"
+  description: "Starling Bank is registered in England and Wales as Starling Bank Limited (No. 09092149), 3rd floor, 2 Finsbury Avenue, London EC2M 2PP. We are authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority under registration number 730166."
+  icon: "starling-bank.ico"
+# TradingView
+- title: "TradingView - Track All Markets"
+  url: "https://www.tradingview.com/"
+  description: "TradingView - Track All Markets Where the world charts, chats and trades markets. We're a supercharged super-charting platform and social network for traders and investors."
+  icon: "trading-view.ico"
+# YouTube
+- title: "YouTube"
+  url: "https://www.youtube.com/"
+  description: "Enjoy the videos and music you love, upload original content and share it all with friends, family and the world on YouTube."
+  icon: "youtube.ico"
+# YouTube Music
+- title: "YouTube Music"
+  url: "https://music.youtube.com/"
+  description: "A new music service with official albums, singles, videos, remixes, live performances and more for Android, iOS and desktop. It's all here."
+  icon: "youtube-music.ico"
+# Carbon
+- title: "Carbon | Create and share beautiful images of your source code"
+  url: "https://carbon.now.sh/"
+  description: "Carbon is the easiest way to create and share beautiful images of your source code."
+  icon: "carbon.ico"
+# Python (Docs)
+- title: "Python documentation"
+  url: "https://docs.python.org/"
+  description: "This is the official documentation for Python."
+  icon: "python.ico"
+# NordVPN
+- title: "The best online VPN service for speed and security | NordVPN"
+  url: "https://nordvpn.com/"
+  description: "NordVPN is the best VPN if you're looking for peace of mind when on public Wi-Fi. Securely access personal information or work files, encrypt your internet connection, and keep your browsing history and online identity private. Enjoy online privacy and security with NordVPN. Need more? Explore the additional VPN benefits our apps offer."
+  icon: "nordvpn.png"
+# NordVPN | What's my IP?
+- title: "What is my IP address location? Find out here | NordVPN"
+  url: "https://nordvpn.com/what-is-my-ip/"
+  description: "Check your IP address in a moment here! Did you know that there are different types of IP? Click here to find out how to protect yourself online."
+  icon: "nordvpn.png"
+# Bitwarden
+- title: "Bitwarden Open Source Password Manager | Bitwarden"
+  url: "https://bitwarden.com/"
+  description: "Bitwarden is an integrated open source password management solution for individuals, teams, and business organizations"
+  icon: "bitwarden.png"
+# Hargreaves Lansdown
+- title: "Hargreaves Lansdown | ISAs, pensions, funds and shares"
+  url: "https://www.hl.co.uk/"
+  description: "Hargreaves Lansdown | ISAs, pensions, funds and shares How to get started The only home you need for your ISAs, investments, pensions, and savings."
+  icon: "hargreaves-lansdown.ico"
+# Element
+- title: "Element | Secure collaboration and messaging"
+  url: "https://element.io/"
+  description: "Element is a Matrix-based end-to-end encrypted messenger and secure collaboration app. It's decentralised for digital sovereign self-hosting, or through a hosting service such as Element Matrix Services. Element operates on the open Matrix network to provide interoperability and easy connections."
+  icon: "element.png"
+# Firefox Add-ons
+- title: "Add-ons for Firefox (en-GB)"
+  url: "https://addons.mozilla.org/en-GB/firefox/"
+  description: "Add-ons for Firefox (en-GB)"
+  icon: "mozilla-addons.ico"
+# Kubernetes (Docs)
+- title: "Kubernetes Documentation | Kubernetes"
+  url: "https://kubernetes.io/docs/home/"
+  description: "Kubernetes Documentation | Kubernetes Kubernetes is an open source container orchestration engine for automating deployment, scaling, and management of containerized applications. The open source project is hosted by the Cloud Native Computing Foundation."
+  icon: "kubernetes.png"
+# Emojipedia
+- title: "📙 Emojipedia — 😃 Home of Emoji Meanings 💁👌🎍😍"
+  url: "https://emojipedia.org/"
+  description: "The emoji search engine. A fast emoji search experience with options to browse every emoji by name, category, or platform."
+  icon: "emojipedia.png"
+# HTTPBin
+- title: "HTTPBin"
+  url: "http://httpbin.org/"
+  description: "A simple HTTP Request & Response Service."
+  icon: "httpin.ico"
+# SYME
+- title: "Supplyme Capital - Supplyme Capital"
+  url: "https://www.supplymecapital.com/"
+  description: "Supplyme Capital - Supplyme Capital A new way of Inventory Monetisation. Need satisfied."
+  icon: "supplymecapital.png"
+# Linux Mint
+- title: "Home - Linux Mint"
+  url: "https://linuxmint.com/"
+  description: "Mint has become the very best example of what a Linux desktop should be: fast, easy, pleasing to the eye, useful and productive. Others, still, see Mint as the ideal desktop for Windows refugees, or those who are trying out Linux for the first time, and want an operating system that essentially works 'out of the box'. David Hayward."
+  icon: "linuxmint.ico"
+# Ubuntu
+- title: "Enterprise Open Source and Linux | Ubuntu"
+  url: "https://ubuntu.com/"
+  description: "More than Linux. Security and compliance for the full stack. Secure your open source apps. Patch the full stack, from kernel to library and applications, for CVE compliance. Governments and auditors certify Ubuntu for FedRAMP, FISMA and HITECH. 10 year security maintenance and CVE Patching. Kernel Livepatch for 24/7 patching with no downtime."
+  icon: "ubuntu.ico"
+# BOX
+- title: "BOX | Best Prices on PCs, Laptops, TVs, Gaming, Components, Monitors & More"
+  url: "https://www.box.co.uk/"
+  description: "If it comes in a box, we sell it. If it's the latest tech, we stock it. If it's what you want, we deliver it. We are Box, one of the UK's leading e-tailers of tech products. We stock thousands of products from all your favourite brands, including Samsung, LG, Acer, MSI, Philips, Epson, Razer, ASUS, Apple, HP and many more."
+  icon: "box.ico"
+# Channel 4
+- title: "All 4 | The on-demand channel from 4"
+  url: "https://www.channel4.com/"
+  description: "Watch your favourite shows online, from Channel 4, E4, All 4 and Walter Presents"
+  icon: "channel4.ico"
+# Visual Studio Code
+- title: "Visual Studio Code - Code Editing. Redefined"
+  url: "https://code.visualstudio.com/"
+  description: "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications. Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows."
+  icon: "visualstudio-code.ico"

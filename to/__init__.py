@@ -1,14 +1,15 @@
-from typing import Dict, List, TextIO
+from typing import Dict, List, Set, TextIO
 
 import thefuzz.fuzz
 import yaml
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 import furl
+import re
 
 from .models import Bookmark
 
-THRESHOLD: int = 33
+THRESHOLD: int = 15
 
 app: FastAPI = FastAPI()
 
@@ -24,14 +25,16 @@ def load_db() -> List[dict]:
 def get_bookmarks() -> List[Bookmark]:
     return [Bookmark(**bookmark) for bookmark in load_db()]
 
+def extract_words(string: str) -> Set[str]:
+    return set(re.findall(r'[a-zA-Z]+', string))
+
+def get_words(bookmark: Bookmark) -> Set[str]:
+    return extract_words(bookmark.title) | extract_words(bookmark.description) | extract_words(furl.furl(bookmark.url).host.replace(".", " "))
 
 def get_ratio(bookmark: Bookmark, query: str) -> int:
     return max(
-        thefuzz.fuzz.ratio(source, query)
-        for source in (
-            bookmark.title,
-            furl.furl(bookmark.url).host.replace(".", " ")
-        )
+        thefuzz.fuzz.ratio(word.lower(), query.lower())
+        for word in get_words(bookmark)
     )
 
 
