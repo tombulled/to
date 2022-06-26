@@ -23,3 +23,13 @@
   url: "https://fastapi.tiangolo.com/"
   description: "FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints."
   icon: "fastapi.png"
+# Stack Overflow
+- title: "Stack Overflow - Where Developers Learn, Share, & Build Careers"
+  url: "https://stackoverflow.com/"
+  description: "Stack Overflow is the largest, most trusted online community for developers to learn, share their programming knowledge, and build their careers."
+  icon: "stackoverflow.ico"
+# BBC News
+- title: "Home - BBC News"
+  url: "https://www.bbc.co.uk/news"
+  description: "Visit BBC News for up-to-the-minute news, breaking news, video, audio and feature stories. BBC News provides trusted World and UK news as well as local and regional perspectives."
+  icon: "bbc.ico"
