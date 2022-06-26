@@ -58,3 +58,13 @@
   url: "https://cyberchef.org/"
   description: "CyberChef encourages both technical and non-technical people to explore data formats, encryption and compression."
   icon: "cyberchef.ico"
+# Google Finance
+- title: "Google Finance - Stock Market Prices, Real-time Quotes & Business News"
+  url: "https://www.google.com/finance/"
+  description: "Google Finance provides real-time market quotes, international exchanges, up-to-date financial news, and analytics to help you make more informed trading and investment decisions."
+  icon: "google-finance.png"
+# Proton Mail
+- title: "ProtonMail - Login"
+  url: "https://mail.proton.me/"
+  description: "ProtonMail - Login"
+  icon: "protonmail.ico"
