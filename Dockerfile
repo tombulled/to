@@ -6,6 +6,10 @@ COPY pyproject.toml pyproject.toml
 COPY to to
 COPY config.yaml config.yaml
 
+# Temporarily the ./icons directory is included for favicons.
+# In the future this will be handled differently.
+COPY icons icons
+
 RUN pip install .
 RUN pip install uvicorn
 
