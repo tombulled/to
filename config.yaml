@@ -3,293 +3,475 @@
   url: "https://www.google.co.uk/"
   description: "Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for."
   icon: "google.ico"
+  keywords:
+    - google
 # Google Maps
 - title: "Google Maps"
   url: "https://maps.google.co.uk/"
   description: "Find local businesses, view maps and get driving directions in Google Maps."
   icon: "google-maps.ico"
+  keywords:
+    - google
+    - maps
 # Google Images
 - title: "Google Images"
   url: "https://images.google.co.uk/"
   description: "Google Images. The most comprehensive image search on the web."
   icon: "google.ico"
-# DuckDuckGo
-- title: "DuckDuckGo — Privacy, simplified."
-  url: "https://duckduckgo.com/"
-  description: "The Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs."
-  icon: "duckduckgo.ico"
-# Wikipedia
-- title: "Wikipedia"
-  url: "https://www.wikipedia.org/"
-  description: "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation."
-  icon: "wikipedia.ico"
-# GitHub
-- title: "GitHub: Where the world builds software · GitHub"
-  url: "https://github.com/"
-  description: "GitHub is where over 83 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and features, power your CI/CD and DevOps workflows, and secure code before you commit it."
-  icon: "github.ico"
-# FastAPI (Docs)
-- title: "FastAPI"
-  url: "https://fastapi.tiangolo.com/"
-  description: "FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints."
-  icon: "fastapi.png"
-# Stack Overflow
-- title: "Stack Overflow - Where Developers Learn, Share, & Build Careers"
-  url: "https://stackoverflow.com/"
-  description: "Stack Overflow is the largest, most trusted online community for developers to learn, share their programming knowledge, and build their careers."
-  icon: "stackoverflow.ico"
-# BBC News
-- title: "Home - BBC News"
-  url: "https://www.bbc.co.uk/news"
-  description: "Visit BBC News for up-to-the-minute news, breaking news, video, audio and feature stories. BBC News provides trusted World and UK news as well as local and regional perspectives."
-  icon: "bbc.ico"
-# Reddit
-- title: "Reddit - Dive into anything"
-  url: "https://www.reddit.com/"
-  description: "Reddit is a network of communities where people can dive into their interests, hobbies and passions. There's a community for whatever you're interested in on Reddit."
-  icon: "reddit.ico"
-# Hacker News
-- title: "Hacker News"
-  url: "https://news.ycombinator.com/"
-  description: "Hacker News is a social news website focusing on computer science and entrepreneurship. It is run by the investment fund and startup incubator Y Combinator."
-  icon: "ycombinator.ico"
-# Amazon
-- title: "Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment & more"
-  url: "https://www.amazon.co.uk/"
-  description: "Sign up to Amazon Prime for unlimited free delivery. Low prices at Amazon on digital cameras, MP3, sports, books, music, DVDs, video games, home & garden and much more."
-  icon: "amazon.ico"
-# Gitmoji
-- title: "gitmoji | An emoji guide for your commit messages"
-  url: "https://gitmoji.dev/"
-  description: "Gitmoji is an emoji guide for your commit messages. Aims to be a standarization cheatshee /t for using emojis on GitHub's commit messages."
-  icon: "gitmoji.png"
-# CyberChef
-- title: "CyberChef"
-  url: "https://cyberchef.org/"
-  description: "CyberChef encourages both technical and non-technical people to explore data formats, encryption and compression."
-  icon: "cyberchef.ico"
+  keywords:
+    - google
+    - images
 # Google Finance
 - title: "Google Finance - Stock Market Prices, Real-time Quotes & Business News"
   url: "https://www.google.com/finance/"
   description: "Google Finance provides real-time market quotes, international exchanges, up-to-date financial news, and analytics to help you make more informed trading and investment decisions."
   icon: "google-finance.png"
+  keywords:
+    - google
+    - finance
+# DuckDuckGo
+- title: "DuckDuckGo — Privacy, simplified."
+  url: "https://duckduckgo.com/"
+  description: "The Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs."
+  icon: "duckduckgo.ico"
+  keywords:
+    - duckduckgo
+# Wikipedia
+- title: "Wikipedia"
+  url: "https://www.wikipedia.org/"
+  description: "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation."
+  icon: "wikipedia.ico"
+  keywords:
+    - wikipedia
+# GitHub
+- title: "GitHub: Where the world builds software · GitHub"
+  url: "https://github.com/"
+  description: "GitHub is where over 83 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and features, power your CI/CD and DevOps workflows, and secure code before you commit it."
+  icon: "github.ico"
+  keywords:
+    - github
+# FastAPI (Docs)
+- title: "FastAPI"
+  url: "https://fastapi.tiangolo.com/"
+  description: "FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints."
+  icon: "fastapi.png"
+  keywords:
+    - fastapi
+# Stack Overflow
+- title: "Stack Overflow - Where Developers Learn, Share, & Build Careers"
+  url: "https://stackoverflow.com/"
+  description: "Stack Overflow is the largest, most trusted online community for developers to learn, share their programming knowledge, and build their careers."
+  icon: "stackoverflow.ico"
+  keywords:
+    - stack
+    - overflow
+# BBC News
+- title: "Home - BBC News"
+  url: "https://www.bbc.co.uk/news"
+  description: "Visit BBC News for up-to-the-minute news, breaking news, video, audio and feature stories. BBC News provides trusted World and UK news as well as local and regional perspectives."
+  icon: "bbc.ico"
+  keywords:
+    - bbc
+    - news
+# Reddit
+- title: "Reddit - Dive into anything"
+  url: "https://www.reddit.com/"
+  description: "Reddit is a network of communities where people can dive into their interests, hobbies and passions. There's a community for whatever you're interested in on Reddit."
+  icon: "reddit.ico"
+  keywords:
+    - reddit
+# Hacker News
+- title: "Hacker News"
+  url: "https://news.ycombinator.com/"
+  description: "Hacker News is a social news website focusing on computer science and entrepreneurship. It is run by the investment fund and startup incubator Y Combinator."
+  icon: "ycombinator.ico"
+  keywords:
+    - hacker
+    - news
+# Amazon
+- title: "Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment & more"
+  url: "https://www.amazon.co.uk/"
+  description: "Sign up to Amazon Prime for unlimited free delivery. Low prices at Amazon on digital cameras, MP3, sports, books, music, DVDs, video games, home & garden and much more."
+  icon: "amazon.ico"
+  keywords:
+    - amazon
+# Gitmoji
+- title: "gitmoji | An emoji guide for your commit messages"
+  url: "https://gitmoji.dev/"
+  description: "Gitmoji is an emoji guide for your commit messages. Aims to be a standarization cheatshee /t for using emojis on GitHub's commit messages."
+  icon: "gitmoji.png"
+  keywords:
+    - gitmoji
+# CyberChef
+- title: "CyberChef"
+  url: "https://cyberchef.org/"
+  description: "CyberChef encourages both technical and non-technical people to explore data formats, encryption and compression."
+  icon: "cyberchef.ico"
+  keywords:
+    - cyber
+    - chef
 # Proton Mail
 - title: "ProtonMail - Login"
   url: "https://mail.proton.me/"
   description: "ProtonMail - Login"
   icon: "protonmail.ico"
+  keywords:
+    - proton
+    - mail
 # iCloud
 - title: "iCloud"
   url: "https://www.icloud.com/"
   description: "Sign in to iCloud to access your photos, videos, documents, notes, contacts, and more. Use your Apple ID or create a new account to start using Apple services."
   icon: "icloud.ico"
+  keywords:
+    - apple
+    - icloud
 # MEGA
 - title: "MEGA"
   url: "https://mega.io/"
   description: "MEGA provides free cloud storage with convenient and powerful always-on privacy."
   icon: "mega.ico"
+  keywords:
+    - mega
 # Netflix
 - title: "Netflix United Kingdom – Watch TV Programmes Online, Watch Films Online"
   url: "https://www.netflix.com/gb/"
   description: "Netflix is a streaming service that offers a wide variety of award-winning TV programmes, films, anime, documentaries and more - on thousands of internet-connected devices. You can watch as much as you want, whenever you want, without a single advert - all for one low monthly price."
   icon: "netflix.ico"
+  keywords:
+    - netflix
 # PyPI
 - title: "PyPI · The Python Package Index"
   url: "https://pypi.org/"
   description: "The Python Package Index (PyPI) is a repository of software for the Python programming language. PyPI helps you find and install software developed and shared by the Python community."
   icon: "pypi.ico"
+  keywords:
+    - pypi
+    - python
+    - pip
 # Docker Hub
 - title: "Docker Hub Container Image Library | App Containerization"
   url: "https://hub.docker.com/"
   description: "Docker Hub is the world's largest library and community for container images Browse over 100,000 container images from software vendors, open-source projects, and the community."
   icon: "docker-hub.ico"
+  keywords:
+    - docker
+    - hub
 # Spotify
 - title: "Listening is everything - Spotify"
   url: "https://www.spotify.com/"
   description: "Spotify is all the music you'll ever need."
   icon: "spotify.ico"
+  keywords:
+    - spotify
+    - music
 # Standard Notes
 - title: "Standard Notes | End-To-End Encrypted Notes App"
   url: "https://standardnotes.com/"
   description: "Standard Notes is an end-to-end encrypted note-taking app for digitalists and professionals. Capture your notes, files, and life's work all in one secure place."
   icon: "standard-notes.ico"
+  keywords:
+    - standard
+    - notes
 # Starling Bank
 - title: "Starling Bank: Award-winning bank accounts"
   url: "https://www.starlingbank.com/"
   description: "Starling Bank is registered in England and Wales as Starling Bank Limited (No. 09092149), 3rd floor, 2 Finsbury Avenue, London EC2M 2PP. We are authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority under registration number 730166."
   icon: "starling-bank.ico"
+  keywords:
+    - starling
+    - bank
 # TradingView
 - title: "TradingView - Track All Markets"
   url: "https://www.tradingview.com/"
   description: "TradingView - Track All Markets Where the world charts, chats and trades markets. We're a supercharged super-charting platform and social network for traders and investors."
   icon: "trading-view.ico"
+  keywords:
+    - trading
+    - view
 # YouTube
 - title: "YouTube"
   url: "https://www.youtube.com/"
   description: "Enjoy the videos and music you love, upload original content and share it all with friends, family and the world on YouTube."
   icon: "youtube.ico"
+  keywords:
+    - youtube
+    - videos
 # YouTube Music
 - title: "YouTube Music"
   url: "https://music.youtube.com/"
   description: "A new music service with official albums, singles, videos, remixes, live performances and more for Android, iOS and desktop. It's all here."
   icon: "youtube-music.ico"
+  keywords:
+    - youtube
+    - music
 # Carbon
 - title: "Carbon | Create and share beautiful images of your source code"
   url: "https://carbon.now.sh/"
   description: "Carbon is the easiest way to create and share beautiful images of your source code."
   icon: "carbon.ico"
+  keywords:
+    - carbon
 # Python (Docs)
 - title: "Python documentation"
   url: "https://docs.python.org/"
   description: "This is the official documentation for Python."
   icon: "python.ico"
+  keywords:
+    - python
+    - py
+    - docs
+    - documentation
 # NordVPN
 - title: "The best online VPN service for speed and security | NordVPN"
   url: "https://nordvpn.com/"
   description: "NordVPN is the best VPN if you're looking for peace of mind when on public Wi-Fi. Securely access personal information or work files, encrypt your internet connection, and keep your browsing history and online identity private. Enjoy online privacy and security with NordVPN. Need more? Explore the additional VPN benefits our apps offer."
   icon: "nordvpn.png"
+  keywords:
+    - nord
+    - vpn
 # NordVPN | What's my IP?
 - title: "What is my IP address location? Find out here | NordVPN"
   url: "https://nordvpn.com/what-is-my-ip/"
   description: "Check your IP address in a moment here! Did you know that there are different types of IP? Click here to find out how to protect yourself online."
   icon: "nordvpn.png"
+  keywords:
+    - ip
+    - address
 # Bitwarden
 - title: "Bitwarden Open Source Password Manager | Bitwarden"
   url: "https://bitwarden.com/"
   description: "Bitwarden is an integrated open source password management solution for individuals, teams, and business organizations"
   icon: "bitwarden.png"
+  keywords:
+    - bitwarden
+    - password
+    - manager
 # Hargreaves Lansdown
 - title: "Hargreaves Lansdown | ISAs, pensions, funds and shares"
   url: "https://www.hl.co.uk/"
   description: "Hargreaves Lansdown | ISAs, pensions, funds and shares How to get started The only home you need for your ISAs, investments, pensions, and savings."
   icon: "hargreaves-lansdown.ico"
+  keywords:
+    - hargreaves
+    - lansdown
 # Element
 - title: "Element | Secure collaboration and messaging"
   url: "https://element.io/"
   description: "Element is a Matrix-based end-to-end encrypted messenger and secure collaboration app. It's decentralised for digital sovereign self-hosting, or through a hosting service such as Element Matrix Services. Element operates on the open Matrix network to provide interoperability and easy connections."
   icon: "element.png"
+  keywords:
+    - element
+    - matrix
 # Mozilla | Firefox | Add-ons
 - title: "Add-ons for Firefox (en-GB)"
   url: "https://addons.mozilla.org/en-GB/firefox/"
   description: "Add-ons for Firefox (en-GB)"
   icon: "mozilla-addons.ico"
+  keywords:
+    - addons
+    - firefox
+    - mozilla
 # Mozilla | Firefox
 - title: "Download Firefox — Fast, Private & Free — from Mozilla (UK)"
   url: "https://www.mozilla.org/en-GB/firefox/new/"
   description: "Get Firefox, a free web browser backed by Mozilla, a non-profit dedicated to internet health and privacy. Available now on Windows, Mac, Linux, Android and iOS."
   icon: "firefox.png"
+  keywords:
+    - firefox
+    - mozilla
 # Kubernetes (Docs)
 - title: "Kubernetes Documentation | Kubernetes"
   url: "https://kubernetes.io/docs/home/"
   description: "Kubernetes Documentation | Kubernetes Kubernetes is an open source container orchestration engine for automating deployment, scaling, and management of containerized applications. The open source project is hosted by the Cloud Native Computing Foundation."
   icon: "kubernetes.png"
+  keywords:
+    - kubernetes
+    - documentation
+    - docs
+    - k8s
 # Emojipedia
 - title: "📙 Emojipedia — 😃 Home of Emoji Meanings 💁👌🎍😍"
   url: "https://emojipedia.org/"
   description: "The emoji search engine. A fast emoji search experience with options to browse every emoji by name, category, or platform."
   icon: "emojipedia.png"
+  keywords:
+    - emojipedia
+    - emoji
 # HTTPBin
 - title: "HTTPBin"
   url: "http://httpbin.org/"
   description: "A simple HTTP Request & Response Service."
   icon: "httpbin.ico"
+  keywords:
+    - httpbin
+    - http
 # SYME
 - title: "Supplyme Capital - Supplyme Capital"
   url: "https://www.supplymecapital.com/"
   description: "Supplyme Capital - Supplyme Capital A new way of Inventory Monetisation. Need satisfied."
   icon: "supplymecapital.png"
+  keywords:
+    - supply
+    - me
+    - capital
+    - syme
 # Linux Mint
 - title: "Home - Linux Mint"
   url: "https://linuxmint.com/"
   description: "Mint has become the very best example of what a Linux desktop should be: fast, easy, pleasing to the eye, useful and productive. Others, still, see Mint as the ideal desktop for Windows refugees, or those who are trying out Linux for the first time, and want an operating system that essentially works 'out of the box'. David Hayward."
   icon: "linuxmint.ico"
+  keywords:
+    - linux
+    - mint
 # Ubuntu
 - title: "Enterprise Open Source and Linux | Ubuntu"
   url: "https://ubuntu.com/"
   description: "More than Linux. Security and compliance for the full stack. Secure your open source apps. Patch the full stack, from kernel to library and applications, for CVE compliance. Governments and auditors certify Ubuntu for FedRAMP, FISMA and HITECH. 10 year security maintenance and CVE Patching. Kernel Livepatch for 24/7 patching with no downtime."
   icon: "ubuntu.ico"
+  keywords:
+    - ubuntu
+    - canonical
 # BOX
 - title: "BOX | Best Prices on PCs, Laptops, TVs, Gaming, Components, Monitors & More"
   url: "https://www.box.co.uk/"
   description: "If it comes in a box, we sell it. If it's the latest tech, we stock it. If it's what you want, we deliver it. We are Box, one of the UK's leading e-tailers of tech products. We stock thousands of products from all your favourite brands, including Samsung, LG, Acer, MSI, Philips, Epson, Razer, ASUS, Apple, HP and many more."
   icon: "box.ico"
+  keywords:
+    - box
 # Channel 4
 - title: "All 4 | The on-demand channel from 4"
   url: "https://www.channel4.com/"
   description: "Watch your favourite shows online, from Channel 4, E4, All 4 and Walter Presents"
   icon: "channel4.ico"
+  keywords:
+    - channel
+    - "4"
+    - four
 # Visual Studio Code
 - title: "Visual Studio Code - Code Editing. Redefined"
   url: "https://code.visualstudio.com/"
   description: "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications. Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows."
   icon: "visualstudio-code.ico"
+  keywords:
+    - visual
+    - studio
+    - code
+    - vs
+    - vscode
+    - microsoft
 # Virtualbox
 - title: "Oracle VM VirtualBox"
   url: "https://www.virtualbox.org/"
   description: "VirtualBox is being actively developed with frequent releases and has an ever growing list of features, supported guest operating systems and platforms it runs on. VirtualBox is a community effort backed by a dedicated company: everyone is encouraged to contribute while Oracle ensures the product always meets professional quality criteria."
   icon: "virtualbox.ico"
+  keywords:
+    - virtual
+    - box
+    - oracle
+    - vm
 # Cisco Networking Academy
 - title: "Cisco Networking Academy Builds IT Skills & Education For Future Careers"
   url: "https://www.netacad.com/"
   description: "Join the growing IT workforce of tomorrow. Learn about the Cisco Networking Academy curriculum, learning platform, support & training."
   icon: "netacad.ico"
+  keywords:
+    - cisco
+    - networking
+    - academy
 # Dell
 - title: "Computers, Monitors & Technology Solutions | Dell UK"
   url: "https://www.dell.com/en-uk"
   description: "Dell provides technology solutions, services & support. Buy Laptops, Touch Screen PCs, Desktops, Servers, Storage, Monitors, Gaming & Accessories."
   icon: "dell.ico"
+  keywords:
+    - dell
 # Nationwide
 - title: "Nationwide Building Society | Building society, nationwide"
   url: "https://www.nationwide.co.uk/"
   description: "The world's largest building society, run for the benefit of its members. Helping you with current account, mortgage, savings and other personal finance needs."
   icon: "nationwide.png"
+  keywords:
+    - nationwide
+    - building
+    - society
+    - bank
 # NatWest
 - title: "NatWest Online - Bank Accounts, Mortgages, Loans and Savings"
   url: "https://www.natwest.com/"
   description: "Welcome to NatWest. Our extensive personal banking products include bank accounts, mortgages, credit cards, loans and more. Visit today to see how we can serve you."
   icon: "natwest.ico"
+  keywords:
+    - natwest
+    - bank
 # Apple
 - title: "Apple (United Kingdom)"
   url: "https://www.apple.com/uk/"
   description: "Shop everything iPhone, iPad, Apple Watch, Mac and Apple TV, plus explore accessories and entertainment and get expert device support."
   icon: "apple.ico"
+  keywords:
+    - apple
 # Trading 212
 - title: "Commission-free investing for everyone | Trading 212"
   url: "https://www.trading212.com/"
   description: "Invest in Stocks and ETFs with zero commission. Trade Gold, Oil, Currencies and more. Trusted and secure, FCA regulated."
   icon: "trading212.png"
+  keywords:
+    - trading212
+    - trading
+    - "212"
 # Signal
 - title: "Signal >> Home"
   url: "https://www.signal.org/"
   description: "Signal uses your phone's data connection so you can avoid SMS and MMS fees. Speak Freely Make crystal-clear voice and video calls to people who live across town, or across the ocean, with no long-distance charges. Make Privacy Stick Add a new layer of expression to your conversations with encrypted stickers."
   icon: "signal.png"
+  keywords:
+    - signal
 # SMARTY
 - title: "Simple, honest mobile | SMARTY"
   url: "https://smarty.co.uk/"
   description: "With SMARTY you can continue to use your allowance in European destinations to make calls and send texts to the UK and you can use up to 12GB of data to get online. Check pricing Now that's fist bump worthy Great deals deserve a fist bump. And with SMARTY there's loads to bump about - just watch our new TV ad if you don't believe us."
   icon: "smarty.ico"
+  keywords:
+    - smarty
 # Screwfix
 - title: "Screwfix.com | The UK's number 1 trade catalogue | Screwfix Website"
   url: "https://www.screwfix.com/"
   description: "Screwfix: Thousands of products at trade prices | FREE delivery available 7 days a week | FREE click & collect in as little as a minute | Hundreds of stores"
   icon: "screwfix.ico"
+  keywords:
+    - screwfix
 # IKEA
 - title: "Fresh home furnishing ideas and affordable furniture - IKEA"
   url: "https://www.ikea.com/gb/en/"
   description: "Welcome to IKEA. Discover affordable furniture and home furnishing inspiration for all sizes of wallets and homes. Shop online or find a store near you."
   icon: "ikea.ico"
+  keywords:
+    - ikea
 # Office 365
 - title: "Office 365 login"
   url: "https://www.office.com/"
   description: "Collaborate for free with online versions of Microsoft Word, PowerPoint, Excel, and OneNote. Save documents, spreadsheets, and presentations online, in OneDrive."
   icon: "office.ico"
+  keywords:
+    - office
+    - "365"
 # OpenStreetMap
 - title: "OpenStreetMap"
   url: "https://www.openstreetmap.org/"
   description: "OpenStreetMap is the free wiki world map. OpenStreetMap is a map of the world, created by people like you and free to use under an open license."
   icon: "openstreetmap.png"
+  keywords:
+    - openstreetmap
+    - open
+    - street
+    - map
+    - osm
 # B&Q
 - title: "B&Q | DIY Products at Everyday Low Prices | DIY at B&Q"
   url: "https://www.diy.com/"
   description: "Shop for everything you need to complete your home and garden project. Order online for 1hr Click+Collect, or free home delivery on orders over £50."
   icon: "diy.ico"
+  keywords:
+    - b&q
+    - diy
