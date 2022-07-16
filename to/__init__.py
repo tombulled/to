@@ -1,4 +1,4 @@
-from typing import Dict, List, Set, TextIO, Tuple
+from typing import List, Set, TextIO
 
 import thefuzz.fuzz
 import yaml
@@ -9,8 +9,6 @@ import re
 
 from .models import Bookmark
 
-THRESHOLD: int = 0
-
 app: FastAPI = FastAPI()
 
 app.mount("/icons", StaticFiles(directory="icons"), name="icons")
@@ -18,7 +16,7 @@ app.mount("/icons", StaticFiles(directory="icons"), name="icons")
 
 def load_db() -> List[dict]:
     file: TextIO
-    with open("config.yaml", "r") as file:
+    with open("assets/config.yaml", "r") as file:
         return yaml.load(file, Loader=yaml.SafeLoader)
 
 
