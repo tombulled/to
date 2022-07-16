@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY pyproject.toml pyproject.toml
 COPY to to
-COPY config.yaml config.yaml
+COPY assets assets
 
 # Temporarily the ./icons directory is included for favicons.
 # In the future this will be handled differently.
