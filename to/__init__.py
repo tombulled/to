@@ -16,7 +16,7 @@ app.mount("/icons", StaticFiles(directory="icons"), name="icons")
 
 def load_db() -> List[dict]:
     file: TextIO
-    with open("assets/config.yaml", "r") as file:
+    with open("config.yaml", "r") as file:
         return yaml.load(file, Loader=yaml.SafeLoader)
 
 
